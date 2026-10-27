@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.7 — Contact damage cooldown
+- Replaced one-hit-per-contact behavior with a 0.1-second damage cooldown after each hit.
+- Staying inside the enemy continues to deal 1 HP damage whenever the cooldown expires.
+- Restart resets the cooldown.
+
 ## 0.1.6 — Game over and restart
 - At zero HP, movement stops and a Game Over message prompts the player to press any key.
 - Any key resets player position, HP to 10, and collision state without changing the enemy or arena.
