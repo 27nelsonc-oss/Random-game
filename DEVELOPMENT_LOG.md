@@ -1,5 +1,9 @@
 # Development Log
 
+## 2026-10-27 — Damage invincibility balance
+- Changed the existing next-damage timestamp offset from 100 ms to 750 ms without altering collision, health, restart, or mobile controls.
+- Verified the updated source on GitHub; browser gameplay was not tested.
+
 ## 2026-10-27 — Mobile controls
 - Added touch/pen pointer capture on the arena with movement direction and short drag distance for full speed; no visible joystick.
 - Release, cancellation, and window blur clear touch movement. A tap while defeated restarts and updates the game-over prompt.
