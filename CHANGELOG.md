@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 — Explicit flat white circle
+- Redrew the player explicitly as a flat, solid white circle with no visible outline or shadow, and increased its size slightly for visibility.
+- Kept the grey grid arena and existing movement behavior.
+
 ## 0.1.2 — Grey arena and white player
 - Changed the ground to grey with a simple darker grey grid.
 - Changed the player to a plain white circle, representing a cylinder viewed directly from above.
