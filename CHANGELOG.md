@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 — Grey arena and white player
+- Changed the ground to grey with a simple darker grey grid.
+- Changed the player to a plain white circle, representing a cylinder viewed directly from above.
+- Kept WASD/arrow-key movement and arena boundaries.
+
 ## 0.1.1 — Movement foundation
 - Simplified the game to a single arena platform and one player character.
 - Added WASD and arrow-key movement with diagonal speed normalization and arena boundaries.
