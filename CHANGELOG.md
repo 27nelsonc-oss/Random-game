@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — Stronger enemy pursuit
+- Increased enemy chase speed from 105 to 180 canvas units per second so movement is easier to notice.
+- Made each chase step explicitly stop at the player's position rather than overshooting it.
+
 ## 0.2.0 — Slow chasing enemy
 - The red enemy now moves toward the player continuously at 105 canvas units per second, slower than the player's 250.
 - Enemy stays inside arena boundaries; its direction dot continues to face the player.
