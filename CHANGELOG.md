@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5 — Player HP and contact damage
+- Player starts with 10 HP, displayed below the arena.
+- Each new collision with the stationary red enemy removes 1 HP; remaining in contact does not repeatedly drain HP.
+- HP stops at zero.
+
 ## 0.1.4 — Stationary red enemy
 - Added one stationary red circular enemy matching the player's size.
 - Added a small black direction dot that always points toward the player as the player moves.
