@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.8 — Mobile touch movement
+- Added an invisible touch joystick: touch and drag anywhere on the arena to move, release to stop.
+- Disabled touch scrolling on the arena and allowed a tap on the game-over screen to restart.
+- Preserved keyboard controls, enemy, HP, and damage mechanics.
+
 ## 0.1.7 — Contact damage cooldown
 - Replaced one-hit-per-contact behavior with a 0.1-second damage cooldown after each hit.
 - Staying inside the enemy continues to deal 1 HP damage whenever the cooldown expires.
