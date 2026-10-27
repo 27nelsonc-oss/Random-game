@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Reapply unmistakable flat white player
+- Replaced the player draw statement with an explicit solid white fill, disabled shadow/outline effects, and increased the circle radius from 17px to 22px.
+- Left movement logic, grey arena, and grid spacing unchanged.
+- Validation: re-fetched the updated file and checked the drawing code; browser gameplay was not tested.
+
 ## 2026-10-27 — Grey ground and top-down white player
 - Changed the ground to neutral grey and kept a simple darker grey grid.
 - Replaced the stylized character drawing with a plain white circle, representing a cylinder viewed directly from above.
