@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Restart after zero HP
+- Added a game-over overlay and halted movement at zero HP.
+- A keydown while defeated restores 10 HP, the initial player position, and clears held keys/contact state.
+- Source reviewed after editing; browser gameplay was not tested.
+
 ## 2026-10-27 — Player HP and collision damage
 - Added visible player HP starting at 10 / 10.
 - Added circle overlap detection and a contact latch: one damage on contact entry, requiring separation before another hit.
