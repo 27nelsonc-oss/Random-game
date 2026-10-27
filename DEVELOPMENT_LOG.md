@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Player HP and collision damage
+- Added visible player HP starting at 10 / 10.
+- Added circle overlap detection and a contact latch: one damage on contact entry, requiring separation before another hit.
+- HP cannot go below zero. Source verification performed; no browser test.
+
 ## 2026-10-27 — Added red target circle
 - Added a stationary red circle matching the player's size.
 - Added a small black dot that points toward the player's current position.
