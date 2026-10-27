@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4 — Stationary red enemy
+- Added one stationary red circular enemy matching the player's size.
+- Added a small black direction dot that always points toward the player as the player moves.
+- The enemy has no movement or AI.
+
 ## 0.1.3 — Explicit flat white circle
 - Redrew the player explicitly as a flat, solid white circle with no visible outline or shadow, and increased its size slightly for visibility.
 - Kept the grey grid arena and existing movement behavior.
