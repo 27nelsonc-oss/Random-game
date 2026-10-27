@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 — Enemy respawn
+- A defeated enemy respawns at its starting position with full 5 HP after 2 seconds.
+- The player waits one second after the respawn before the next automatic shot.
+
 ## 0.3.0 — Automatic projectiles and enemy health
 - The player automatically fires a visible projectile toward the enemy every second.
 - Each projectile deals 1 damage; the enemy starts with 5 HP and displays a health bar above it.
