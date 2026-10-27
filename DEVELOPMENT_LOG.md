@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Continuous contact damage with cooldown
+- Replaced the contact-entry latch with a 100 ms next-damage timestamp based on the animation frame time.
+- Continuous overlap can cause another hit after cooldown; leaving and re-entering does not bypass the cooldown.
+- Restart clears the cooldown. Source checked; browser gameplay not tested.
+
 ## 2026-10-27 — Restart after zero HP
 - Added a game-over overlay and halted movement at zero HP.
 - A keydown while defeated restores 10 HP, the initial player position, and clears held keys/contact state.
