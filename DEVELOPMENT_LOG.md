@@ -1,5 +1,12 @@
 # Development Log
 
+## 2026-10-27 — Automatic shooting and enemy health bar
+- Added a visible projectile fired once per second toward the living enemy.
+- Projectiles travel in a straight line and deal 1 damage on collision; the enemy has 5 HP.
+- Added a health bar above the enemy and hide/stop the enemy at 0 HP.
+- Restart restores the enemy's starting position and full health and clears active projectiles.
+- Verified the updated source on GitHub; browser gameplay was not tested.
+
 ## 2026-10-27 — Retry enemy chase fix
 - Increased the enemy's chase speed to 180 canvas units per second for visibly stronger pursuit.
 - Reworked the movement step to cap travel at the remaining distance to the player, avoiding overshoot near the target.
