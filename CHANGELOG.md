@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 — Slow chasing enemy
+- The red enemy now moves toward the player continuously at 105 canvas units per second, slower than the player's 250.
+- Enemy stays inside arena boundaries; its direction dot continues to face the player.
+
 ## 0.1.9 — Longer damage invincibility
 - Increased the post-hit invincibility period from 0.1 seconds to 0.75 seconds.
 - Continued enemy contact still deals 1 damage each time invincibility expires.
