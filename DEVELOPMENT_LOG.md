@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Enemy movement
+- Made the red enemy slowly pursue the player at 105 units per second, compared with the player's 250.
+- Kept the enemy within arena bounds and its direction marker aimed at the player.
+- Source was checked on GitHub; gameplay was not browser-tested.
+
 ## 2026-10-27 — Damage invincibility balance
 - Changed the existing next-damage timestamp offset from 100 ms to 750 ms without altering collision, health, restart, or mobile controls.
 - Verified the updated source on GitHub; browser gameplay was not tested.
