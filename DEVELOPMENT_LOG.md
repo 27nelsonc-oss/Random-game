@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Mobile controls
+- Added touch/pen pointer capture on the arena with movement direction and short drag distance for full speed; no visible joystick.
+- Release, cancellation, and window blur clear touch movement. A tap while defeated restarts and updates the game-over prompt.
+- Source inspected after editing; no actual phone or browser gameplay test was performed.
+
 ## 2026-10-27 — Continuous contact damage with cooldown
 - Replaced the contact-entry latch with a 100 ms next-damage timestamp based on the animation frame time.
 - Continuous overlap can cause another hit after cooldown; leaving and re-entering does not bypass the cooldown.
