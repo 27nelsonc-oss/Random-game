@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-10-27 — Added red target circle
+- Added a stationary red circle matching the player's size.
+- Added a small black dot that points toward the player's current position.
+- Checked the source after editing; no browser test was performed.
+
+
 ## 2026-10-27 — Reapply unmistakable flat white player
 - Replaced the player draw statement with an explicit solid white fill, disabled shadow/outline effects, and increased the circle radius from 17px to 22px.
 - Left movement logic, grey arena, and grid spacing unchanged.
