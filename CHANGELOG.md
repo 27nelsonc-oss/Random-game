@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6 — Game over and restart
+- At zero HP, movement stops and a Game Over message prompts the player to press any key.
+- Any key resets player position, HP to 10, and collision state without changing the enemy or arena.
+
 ## 0.1.5 — Player HP and contact damage
 - Player starts with 10 HP, displayed below the arena.
 - Each new collision with the stationary red enemy removes 1 HP; remaining in contact does not repeatedly drain HP.
