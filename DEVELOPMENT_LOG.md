@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Retry enemy chase fix
+- Increased the enemy's chase speed to 180 canvas units per second for visibly stronger pursuit.
+- Reworked the movement step to cap travel at the remaining distance to the player, avoiding overshoot near the target.
+- Updated the source on `game-development`; browser gameplay was not available to test directly.
+
 ## 2026-10-27 — Enemy movement
 - Made the red enemy slowly pursue the player at 105 units per second, compared with the player's 250.
 - Kept the enemy within arena bounds and its direction marker aimed at the player.
