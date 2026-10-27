@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0 — Automatic projectiles and enemy health
+- The player automatically fires a visible projectile toward the enemy every second.
+- Each projectile deals 1 damage; the enemy starts with 5 HP and displays a health bar above it.
+- The enemy disappears and stops chasing when defeated; restarting after Game Over restores the enemy and clears projectiles.
+
 ## 0.2.1 — Stronger enemy pursuit
 - Increased enemy chase speed from 105 to 180 canvas units per second so movement is easier to notice.
 - Made each chase step explicitly stop at the player's position rather than overshooting it.
