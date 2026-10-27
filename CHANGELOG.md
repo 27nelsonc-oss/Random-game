@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — Movement foundation
+- Simplified the game to a single arena platform and one player character.
+- Added WASD and arrow-key movement with diagonal speed normalization and arena boundaries.
+- Removed enemies, combat, XP, upgrades, HUD, and run menus for now; these can be added back in later milestones.
+
 ## 0.1.0 — First playable prototype
 - Added a browser-playable top-down arena.
 - Added WASD/arrow-key movement, enemy waves, automatic targeting and shooting, health, XP drops, and level-up choices.
