@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9 — Longer damage invincibility
+- Increased the post-hit invincibility period from 0.1 seconds to 0.75 seconds.
+- Continued enemy contact still deals 1 damage each time invincibility expires.
+
 ## 0.1.8 — Mobile touch movement
 - Added an invisible touch joystick: touch and drag anywhere on the arena to move, release to stop.
 - Disabled touch scrolling on the arena and allowed a tap on the game-over screen to restart.
