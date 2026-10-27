@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Enemy respawn
+- Added a two-second respawn delay after the enemy is defeated; it returns to its starting position with full 5 HP.
+- Delayed the next automatic shot by one second after respawn so the player gets a moment before firing again.
+- Re-fetched and checked the source; browser gameplay was not tested.
+
 ## 2026-10-27 — Automatic shooting and enemy health bar
 - Added a visible projectile fired once per second toward the living enemy.
 - Projectiles travel in a straight line and deal 1 damage on collision; the enemy has 5 HP.
