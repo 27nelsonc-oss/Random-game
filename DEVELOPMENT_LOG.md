@@ -1,3 +1,7 @@
+## 2026-10-28 — Small enemies
+- Added a smaller enemy type from wave 5 onward with 3 HP and 275 movement speed versus the player's 250. Wave 5 guarantees two small-enemy spawns, increasing by one every five waves; other spawns have a 20% small-enemy chance.
+- Applied the selection rules to both initial wave spawns and respawns, added smaller enemy visuals/health bars, and reset the small-enemy counter on each new wave and restart. Updated both HTML copies identically. Source-level checks only; real-browser gameplay not tested.
+
 ## 2026-10-28 — Slash upgrades
 - Added four Slash upgrades: half-second cooldown reduction (3.0s to 2.5s); an outward-and-returning swing; slightly increased radius, thickness, and attack range; and a small outward knockback on the second hit from the return swing.
 - Updated Slash card text, level display, and hide-at-max behavior; restart resets its upgrade level. Both HTML files updated identically. Source-level checks only; real-browser gameplay not tested.
