@@ -1,3 +1,6 @@
+## 0.3.14 — Slash ability
+- Added Slash as the third level-up card. Once selected, the player automatically sweeps a close-range sword arc toward the mouse aim every 3 seconds, dealing 3 damage to each enemy hit once per swing.
+
 ## 0.3.13 — Larger arena and random-edge enemy spawns
 - Expanded the game arena from 960×600 to 1440×900 and increased its maximum displayed width.
 - Both enemies now start at randomly selected points along the arena border and enter by chasing the player. Each respawn also chooses a fresh random border location.
