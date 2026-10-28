@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.4 — Cloudflare Pages deployment readiness
+- Added Cloudflare Pages Git-integration setup instructions to the README for this root-level static HTML game.
+- Documented `game-development` as the intended production branch and the root directory as the static output.
+- No game mechanics or gameplay files were changed in this setup-only update.
+
 ## 0.3.3 — Yellow enemy drops
 - Each defeated enemy drops a small yellow cube at its defeat location.
 - The player can collect the cube by moving into it; collected cubes disappear.
