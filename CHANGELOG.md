@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.3 — Yellow enemy drops
+- Each defeated enemy drops a small yellow cube at its defeat location.
+- The player can collect the cube by moving into it; collected cubes disappear.
+- Restart clears any uncollected cubes.
+
 ## 0.3.2 — Reliable enemy respawn timer
 - Replaced the respawn deadline check with a frame-based two-second countdown after the enemy is defeated.
 - The countdown restores the enemy to its starting position with full HP.
