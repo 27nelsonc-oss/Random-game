@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.10 — Reliable Yoyo return
+- Made the Yoyo's return phase explicitly track its state and snap the head to the player's current position when it reaches them, before starting the recovery cooldown.
+- Preserved the live player-anchored string and existing damage behavior.
+
 ## 0.3.9 — Player-attached Yoyo tether
 - The string now stays anchored to the player's current position as the player moves.
 - The yo-yo head returns directly toward the moving player and the attack only resets after it reaches the player.
