@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Cloudflare Pages preparation
+- Added deployment instructions to the README for linking the repository to Cloudflare Pages through Git integration.
+- Confirmed the game entry point is the top-level `index.html`; no build tool, dependencies, or environment variables are needed.
+- Recommended `game-development` as the Pages production branch so `main` remains unchanged. Deployment itself must be completed in the Cloudflare dashboard; it was not run or tested here.
+
 ## 2026-10-27 — Yellow pickup drops
 - Added a small yellow square collectible at the enemy's location whenever it is defeated.
 - The player collects it by moving close enough; the collectible disappears on pickup.
