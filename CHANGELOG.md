@@ -1,3 +1,7 @@
+## 0.3.25 — Yoyo upgrades
+- Added four Yoyo upgrades after the initial purchase: a second Yoyo targeting a different enemy, reduced cooldown, increased travel speed, and a damaging rope between both Yoyos once both reach full extension.
+- The two Yoyos wait at full extension until both are extended, then return together; the connecting rope does not affect movement. The Yoyo card updates per level and disappears at max level.
+
 ## 0.3.24 — Ball upgrades
 - Added four Ball upgrades after the initial purchase. Each upgrade adds one guaranteed enemy to its bounce chain, progressing from 2 to 6 guaranteed targets.
 - Upgrade 3 adds a 25% chance to continue bouncing after the guaranteed chain (each extra bounce rolls again) and reduces the cooldown from 5 seconds to 2.5 seconds. Upgrade 4 raises the repeat-bounce chance to 50% and keeps damage at 2 on every hit. The Ball card updates its description and disappears when fully upgraded.
