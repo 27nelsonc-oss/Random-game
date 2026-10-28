@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.5 — Cube XP and leveling
+- Collecting each yellow cube grants 1 XP; the HUD shows the current level and progress toward the next level.
+- Level 1 requires 3 cubes, level 2 requires 5 additional cubes, then each later level costs 2 more cubes than the previous level.
+- Restart resets level and XP along with the existing run state.
+
+
 ## 0.3.4 — Cloudflare Pages deployment readiness
 - Added Cloudflare Pages Git-integration setup instructions to the README for this root-level static HTML game.
 - Documented `game-development` as the intended production branch and the root directory as the static output.
