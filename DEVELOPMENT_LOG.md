@@ -1,3 +1,7 @@
+## 2026-10-28 — Enemy waves
+- Added a four-defeat first wave, increasing the defeat target by one per wave, using the existing two enemy slots and random-edge respawns. Centralized enemy defeat accounting for projectiles, Yoyo, Ball, Slash, and Smite.
+- Added a three-second enemy-free interval, wave HUD, and wave-state reset on restart. Existing XP/healing pickups persist through wave transitions. Source-level checks only; browser gameplay not tested.
+
 ## 2026-10-27 — Randomized level-up cards
 - Changed level-up card presentation to show three of the four abilities, randomly hiding one each time. Each ability therefore has a 75% chance to appear in a given selection, with no duplicates.
 - Rerolls the three visible choices for each pending level-up and prevents hidden cards from being selected. Preserved the four abilities and their effects; returned the wide-screen grid to three columns.
