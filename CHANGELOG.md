@@ -1,3 +1,6 @@
+## 0.3.31 — Tank durability
+- Increased tank enemy health from 5 HP to 20 HP. Normal enemies remain at 5 HP and small enemies remain at 3 HP; all other tank behavior is unchanged.
+
 ## 0.3.30 — Tank enemies
 - Added a larger tank enemy from wave 10 with the normal enemy's 5 HP, slightly slower movement (165 versus 180), and 2 player damage per contact hit.
 - Guarantees 2 tank spawns per wave starting at wave 10, increasing by one every five waves (3 at wave 15, 4 at wave 20, etc.); other eligible spawns have a 15% tank chance. Small enemy rules continue alongside tanks. Tank rules apply to respawns too.
