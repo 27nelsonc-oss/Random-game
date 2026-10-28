@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.7 — Standalone named HTML copy
+- Added `Random_Game.html` as an exact copy of the current game for separate testing, retaining `index.html` unchanged.
+
+
 ## 0.3.6 — Level-up card selection
 - When a player levels up, gameplay pauses and a centered overlay presents three blank, clickable cards; choosing one dismisses the choice and resumes play.
 - Each level-up requires a separate card selection, including when XP carries over multiple level thresholds.
