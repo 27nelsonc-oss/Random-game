@@ -1,3 +1,7 @@
+## 0.3.24 — Ball upgrades
+- Added four Ball upgrades after the initial purchase. Each upgrade adds one guaranteed enemy to its bounce chain, progressing from 2 to 6 guaranteed targets.
+- Upgrade 3 adds a 25% chance to continue bouncing after the guaranteed chain (each extra bounce rolls again) and reduces the cooldown from 5 seconds to 2.5 seconds. Upgrade 4 raises the repeat-bounce chance to 50% and keeps damage at 2 on every hit. The Ball card updates its description and disappears when fully upgraded.
+
 ## 0.3.23 — Four Sword Ring upgrades
 - Sword Ring now has four upgrade picks after its initial purchase. Upgrades add swords: 2 total after upgrade 1, 3 after upgrade 2, 4 after upgrade 3, and 5 after upgrade 4.
 - Upgrade 2 makes each activation complete two revolutions; upgrade 3 reduces the cooldown to 2 seconds; upgrade 4 removes the cooldown for continuous activations. Each enemy can be hit once per revolution. The upgrade card disappears once fully upgraded.
