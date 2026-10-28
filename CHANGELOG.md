@@ -1,3 +1,7 @@
+## 0.3.19 — Scaling simultaneous enemies
+- The simultaneous enemy limit now increases by one every two waves: 2 on waves 1–2, 3 on waves 3–4, 4 on waves 5–6, and so on, never exceeding that wave's defeat target.
+- Additional enemies use the same chase, health, random-edge spawn, combat, and drops as existing enemies. The three-second grace period removes all remaining enemies, and restart restores the initial two-enemy setup.
+
 ## 0.3.18 — Enemy waves
 - Wave 1 requires four enemy defeats. Each following wave requires one more defeat (5, 6, 7, ...), with up to two enemies active at a time and replacements spawning from random arena edges until the wave quota is met.
 - Clearing a wave gives a three-second enemy-free grace period, displays wave progress/countdown, and starts the next wave automatically. XP and healing drops remain available between waves; restart returns to wave 1.
