@@ -1,3 +1,6 @@
+## 2026-10-28 — Tank durability
+- Increased tank enemy maximum health from 5 to 20 HP while preserving normal enemies at 5 HP, small enemies at 3 HP, and all other tank behavior. Updated both HTML copies identically. JavaScript syntax and source-level checks performed; real-browser gameplay not tested.
+
 ## 2026-10-28 — Tank enemies
 - Added a larger, dark-red tank enemy starting at wave 10. It keeps 5 HP, moves at 165 versus the normal enemy's 180, and deals 2 damage per contact hit.
 - Guaranteed tank spawns start at 2 on wave 10 and increase by one every five waves; other eligible spawns have a 15% tank chance. Preserved the existing small-enemy system, applying tank selection before small-enemy random rolls and keeping both guarantee counters per wave. Updated both HTML copies identically. Source-level checks only; real-browser gameplay not tested.
