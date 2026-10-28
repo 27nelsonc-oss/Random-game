@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.9 — Player-attached Yoyo tether
+- The string now stays anchored to the player's current position as the player moves.
+- The yo-yo head returns directly toward the moving player and the attack only resets after it reaches the player.
+
 ## 0.3.8 — Yoyo upgrade
 - Added Yoyo as the first level-up card. Choosing it enables an automatic yo-yo attack aimed toward the farthest living enemy.
 - The visible tether and ball travel outward and retract; the attack deals 1 damage to each enemy intersecting its line once on the outward leg and once on the return leg, without a target-count cap.
