@@ -1,3 +1,8 @@
+## 2026-10-27 — Ball upgrade and second enemy
+- Added Ball as the second level-up card. After selection, it launches every 5 seconds, seeks the nearest living enemy for 2 damage, then bounces to the nearest other living enemy for 1 damage and disappears.
+- Added a second chasing enemy with independent position, health, and two-second respawn countdown. Player auto-shots choose the nearest living enemy; Yoyo line checks can hit either enemy.
+- Updated both HTML files and documented the change. Source-level checks only; browser gameplay was not tested.
+
 # Development Log
 
 ## 2026-10-27 — Retry Yoyo tether and return fix
