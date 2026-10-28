@@ -1,3 +1,7 @@
+## 0.3.18 — Enemy waves
+- Wave 1 requires four enemy defeats. Each following wave requires one more defeat (5, 6, 7, ...), with up to two enemies active at a time and replacements spawning from random arena edges until the wave quota is met.
+- Clearing a wave gives a three-second enemy-free grace period, displays wave progress/countdown, and starts the next wave automatically. XP and healing drops remain available between waves; restart returns to wave 1.
+
 ## 0.3.17 — Randomized level-up cards
 - Level-up choices now show three randomly selected abilities from Yoyo, Ball, Slash, and Smite. Each ability has a 3-in-4 (75%) chance to appear in a level-up selection, with no duplicate cards in the same selection.
 - When multiple level-ups are pending, each new choice screen rerolls the available cards. Existing ability effects and cooldowns are unchanged.
