@@ -1,3 +1,7 @@
+## 0.3.20 — Fullscreen and wave announcements
+- Added a Fullscreen / Exit Fullscreen button for the game area, with the level-up selection and HP/XP/wave HUD retained inside fullscreen mode.
+- Display a centered WAVE number announcement for two seconds at the start of wave 1 and each subsequent wave; restarting restores the first-wave announcement.
+
 ## 0.3.19 — Scaling simultaneous enemies
 - The simultaneous enemy limit now increases by one every two waves: 2 on waves 1–2, 3 on waves 3–4, 4 on waves 5–6, and so on, never exceeding that wave's defeat target.
 - Additional enemies use the same chase, health, random-edge spawn, combat, and drops as existing enemies. The three-second grace period removes all remaining enemies, and restart restores the initial two-enemy setup.
