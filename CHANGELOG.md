@@ -1,3 +1,7 @@
+## 0.3.28 — Slash upgrades
+- Added four Slash upgrades: cooldown reduced from 3 seconds to 2.5 seconds; swing returns along the arc after reaching its normal endpoint; slightly increased swing radius, thickness, and range; and a small knockback on enemies struck by the returning swing's second hit.
+- Slash's card displays its current level/upgrade and disappears at max level. Restart resets Slash ownership and upgrade progress.
+
 ## 0.3.27 — Smite upgrades
 - Added four Smite upgrades: faster reload (5s to 3.5s), piercing beams that continue to the arena boundary and hit enemies along the line, a thicker beam that catches more enemies, and a 1-second beam that can hit enemies inside every 0.25 seconds (up to four hits while they remain in it).
 - Smite's level-up card updates with its current upgrade and disappears at max level. Restart resets Smite's ownership, upgrade level, beam, and cooldown.
