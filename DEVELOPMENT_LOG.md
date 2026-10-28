@@ -1,3 +1,8 @@
+## 2026-10-27 — Mouse-facing player eyes
+- Added two small black eyes to the player, arranged side-by-side perpendicular to the facing direction and positioned toward the mouse.
+- Added canvas-scaled mouse-coordinate tracking so the eyes follow the pointer correctly when the game is resized.
+- Updated both HTML copies and the change logs. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Ball upgrade and second enemy
 - Added Ball as the second level-up card. After selection, it launches every 5 seconds, seeks the nearest living enemy for 2 damage, then bounces to the nearest other living enemy for 1 damage and disappears.
 - Added a second chasing enemy with independent position, health, and two-second respawn countdown. Player auto-shots choose the nearest living enemy; Yoyo line checks can hit either enemy.
