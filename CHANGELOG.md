@@ -1,3 +1,6 @@
+## 0.3.12 — Mouse-facing player eyes
+- Added two small black eyes to the white player; the pair turns toward the mouse pointer to show the player's facing direction.
+
 ## 0.3.11 — Ball upgrade and second enemy
 - Added a Ball level-up choice. Once selected, a small ball launches automatically every 5 seconds toward the nearest living enemy, deals 2 damage on contact, then bounces to the closest other living enemy for 1 damage before disappearing.
 - Added a second chasing enemy with its own health and respawn timer; automatic shots and the Yoyo can target either living enemy.
