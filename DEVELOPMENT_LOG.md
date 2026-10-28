@@ -1,3 +1,7 @@
+## 2026-10-28 — Sword Ring upgrades
+- Added four selectable upgrades after the initial Sword Ring purchase. Sword count progresses from 1 to 5; the second upgrade adds a second revolution, the third reduces cooldown to 2 seconds, and the fourth removes cooldown.
+- Level-up choices update their Sword Ring label/description and stop offering it after max level. Restart clears Sword Ring and upgrade progress. Updated both HTML copies; source checks only, browser gameplay not tested.
+
 ## 2026-10-28 — Sword Ring
 - Added a fifth level-up option and changed the card roll to choose three distinct options from five.
 - Added a moving-player orbit attack with one hit per enemy per orbit, a three-second cooldown after a complete rotation, and restart reset. Updated both HTML copies. Source inspection only; browser gameplay not tested.
