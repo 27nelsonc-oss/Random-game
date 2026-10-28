@@ -1,3 +1,7 @@
+## 2026-10-28 — Tank enemies
+- Added a larger, dark-red tank enemy starting at wave 10. It keeps 5 HP, moves at 165 versus the normal enemy's 180, and deals 2 damage per contact hit.
+- Guaranteed tank spawns start at 2 on wave 10 and increase by one every five waves; other eligible spawns have a 15% tank chance. Preserved the existing small-enemy system, applying tank selection before small-enemy random rolls and keeping both guarantee counters per wave. Updated both HTML copies identically. Source-level checks only; real-browser gameplay not tested.
+
 ## 2026-10-28 — Small enemies
 - Added a smaller enemy type from wave 5 onward with 3 HP and 275 movement speed versus the player's 250. Wave 5 guarantees two small-enemy spawns, increasing by one every five waves; other spawns have a 20% small-enemy chance.
 - Applied the selection rules to both initial wave spawns and respawns, added smaller enemy visuals/health bars, and reset the small-enemy counter on each new wave and restart. Updated both HTML copies identically. Source-level checks only; real-browser gameplay not tested.
