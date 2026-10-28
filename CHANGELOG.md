@@ -1,3 +1,7 @@
+## 0.3.30 — Tank enemies
+- Added a larger tank enemy from wave 10 with the normal enemy's 5 HP, slightly slower movement (165 versus 180), and 2 player damage per contact hit.
+- Guarantees 2 tank spawns per wave starting at wave 10, increasing by one every five waves (3 at wave 15, 4 at wave 20, etc.); other eligible spawns have a 15% tank chance. Small enemy rules continue alongside tanks. Tank rules apply to respawns too.
+
 ## 0.3.29 — Small enemies
 - Introduced smaller red enemies starting on wave 5. Small enemies have 3 HP, a 14-pixel radius, and move at 275 units/second (slightly faster than the player's 250).
 - Each wave from wave 5 guarantees at least 2 small-enemy spawns; the guaranteed count increases by 1 every 5 waves (3 on wave 10, 4 on wave 15, and so on). Additional spawns from wave 5 onward have a 20% chance to be small. Enemy respawns use the same wave rules; restart restores normal enemies on wave 1.
