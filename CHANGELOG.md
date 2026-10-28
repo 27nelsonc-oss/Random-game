@@ -1,3 +1,7 @@
+## 0.3.15 — Level-up healing and health drops
+- Restored the player to full HP whenever they gain a level.
+- Added a green healing cube with a 10% drop chance when an enemy is defeated; collecting it restores 3 HP without exceeding maximum health.
+
 ## 0.3.14 — Slash ability
 - Added Slash as the third level-up card. Once selected, the player automatically sweeps a close-range sword arc toward the mouse aim every 3 seconds, dealing 3 damage to each enemy hit once per swing.
 
