@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Standalone named HTML copy
+- Copied current `index.html` byte-for-byte into root-level `Random_Game.html` on `game-development` without changing the original game entry point or `main`.
+- Verified the copied source against the original after committing; no browser or Cloudflare deployment test was performed.
+
+
 ## 2026-10-27 — Level-up card selection
 - Added a responsive modal overlay with three intentionally blank buttons. A level-up pauses arena simulation until the player selects one card; the selection has no upgrade effect yet.
 - XP carryover can trigger multiple level-ups; each one requires its own choice before gameplay resumes. Restart clears pending choices and closes the overlay.
