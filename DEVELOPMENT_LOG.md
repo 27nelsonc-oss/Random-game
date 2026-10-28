@@ -1,3 +1,7 @@
+## 2026-10-28 — Ball upgrades
+- Added four upgrade levels after the initial Ball purchase. Each upgrade adds one guaranteed target; upgrade 3 adds recursive 25% bonus-bounce chances and halves the cooldown, while upgrade 4 raises the chance to 50% and removes bounce damage reduction.
+- Ball upgrade card text updates by level and is hidden at max level. Restart clears Ball ownership and upgrade progress. Both HTML copies updated; source checks only, browser gameplay not tested.
+
 ## 2026-10-28 — Sword Ring upgrades
 - Added four selectable upgrades after the initial Sword Ring purchase. Sword count progresses from 1 to 5; the second upgrade adds a second revolution, the third reduces cooldown to 2 seconds, and the fourth removes cooldown.
 - Level-up choices update their Sword Ring label/description and stop offering it after max level. Restart clears Sword Ring and upgrade progress. Updated both HTML copies; source checks only, browser gameplay not tested.
