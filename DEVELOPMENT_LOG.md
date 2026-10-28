@@ -1,3 +1,8 @@
+## 2026-10-27 — Larger arena and random-edge enemy spawns
+- Increased the arena's internal dimensions to 1440×900 and raised the responsive CSS width cap to 1200px.
+- Added a random-edge spawn helper; both enemies begin on a randomly selected border and use their existing chase AI to walk inward. Every respawn chooses a new random edge and position.
+- Updated both HTML copies and the change logs. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Mouse-facing player eyes
 - Added two small black eyes to the player, arranged side-by-side perpendicular to the facing direction and positioned toward the mouse.
 - Added canvas-scaled mouse-coordinate tracking so the eyes follow the pointer correctly when the game is resized.
