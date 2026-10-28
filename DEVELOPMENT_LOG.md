@@ -1,3 +1,8 @@
+## 2026-10-27 — Smite ability
+- Added Smite as a fourth level-up card while preserving Yoyo, Ball, and Slash. Once selected, Smite chooses a random living enemy every 5 seconds, deals 5 damage, and displays a brief bright beam from the player to the target.
+- Smite defeats use the existing enemy respawn, XP-drop, and 10% healing-drop behavior. Restart clears Smite ownership, beam state, and cooldown; level-up cards use four columns on wider screens and two columns on narrow screens.
+- Updated both HTML copies and the changelog. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Level-up healing and health drops
 - Restore player HP to the maximum whenever a level is gained, and update the HP display immediately.
 - Added a separate green healing cube drop with a 1-in-10 chance for each enemy defeat from automatic shots, Yoyo, Ball, or Slash. Collecting it restores 3 HP, capped at maximum health; restarting clears uncollected healing cubes.
