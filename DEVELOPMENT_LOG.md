@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-10-27 — Level-up card selection
+- Added a responsive modal overlay with three intentionally blank buttons. A level-up pauses arena simulation until the player selects one card; the selection has no upgrade effect yet.
+- XP carryover can trigger multiple level-ups; each one requires its own choice before gameplay resumes. Restart clears pending choices and closes the overlay.
+- Source-level checks planned after commit; actual browser interaction was not tested.
+
+
 ## 2026-10-27 — Cube XP and leveling
 - Added a compact level/XP readout beneath HP. Collecting a yellow cube grants 1 XP; 3 XP reaches level 1, then 5 additional XP reaches level 2, with the next requirement increasing by 2 each level (7, 9, 11, ...).
 - Any XP beyond a level threshold carries forward. Restart resets level, XP, and the next-level requirement to their starting values.
