@@ -1,3 +1,8 @@
+## 2026-10-27 — Randomized level-up cards
+- Changed level-up card presentation to show three of the four abilities, randomly hiding one each time. Each ability therefore has a 75% chance to appear in a given selection, with no duplicates.
+- Rerolls the three visible choices for each pending level-up and prevents hidden cards from being selected. Preserved the four abilities and their effects; returned the wide-screen grid to three columns.
+- Updated both HTML copies and the changelog. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Smite ability
 - Added Smite as a fourth level-up card while preserving Yoyo, Ball, and Slash. Once selected, Smite chooses a random living enemy every 5 seconds, deals 5 damage, and displays a brief bright beam from the player to the target.
 - Smite defeats use the existing enemy respawn, XP-drop, and 10% healing-drop behavior. Restart clears Smite ownership, beam state, and cooldown; level-up cards use four columns on wider screens and two columns on narrow screens.
