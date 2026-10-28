@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-10-27 — Yoyo upgrade
+- Replaced the first blank level-up card with Yoyo; the other two cards remain blank. Selecting Yoyo enables an automatic 1-damage yo-yo with a visible tether and circular head, aimed at the farthest living enemy.
+- Collision checks cover the whole tether line, allowing multiple enemies to be hit without a target-count cap; each target can be hit once outbound and once on return. Attack repeats after recovery; restart clears the upgrade and its state.
+- Source-level verification planned; browser gameplay and multi-enemy behavior were not tested.
+
+
 ## 2026-10-27 — Standalone named HTML copy
 - Copied current `index.html` byte-for-byte into root-level `Random_Game.html` on `game-development` without changing the original game entry point or `main`.
 - Verified the copied source against the original after committing; no browser or Cloudflare deployment test was performed.
