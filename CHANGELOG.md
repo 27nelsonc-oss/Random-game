@@ -1,3 +1,7 @@
+## 0.3.32 — Ranged enemies
+- Added a purple ranged enemy starting on wave 7 with 4 HP and normal enemy movement speed. It fires 1-damage projectiles every 1.6 seconds at medium range and tries to maintain roughly 255–325 units of distance from the player.
+- Guarantees 1 ranged spawn starting on wave 7, increasing by one every five waves; other eligible spawns have a 15% ranged-enemy chance. Ranged projectiles are cleared between waves and on restart. Existing normal, small, and tank enemy rules remain in place.
+
 ## 0.3.31 — Tank durability
 - Increased tank enemy health from 5 HP to 20 HP. Normal enemies remain at 5 HP and small enemies remain at 3 HP; all other tank behavior is unchanged.
 
