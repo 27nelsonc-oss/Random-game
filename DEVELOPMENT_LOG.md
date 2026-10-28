@@ -1,5 +1,11 @@
 # Development Log
 
+## 2026-10-27 — Cube XP and leveling
+- Added a compact level/XP readout beneath HP. Collecting a yellow cube grants 1 XP; 3 XP reaches level 1, then 5 additional XP reaches level 2, with the next requirement increasing by 2 each level (7, 9, 11, ...).
+- Any XP beyond a level threshold carries forward. Restart resets level, XP, and the next-level requirement to their starting values.
+- Reviewed the modified pickup and restart logic; browser gameplay was not tested.
+
+
 ## 2026-10-27 — Cloudflare Pages preparation
 - Added deployment instructions to the README for linking the repository to Cloudflare Pages through Git integration.
 - Confirmed the game entry point is the top-level `index.html`; no build tool, dependencies, or environment variables are needed.
