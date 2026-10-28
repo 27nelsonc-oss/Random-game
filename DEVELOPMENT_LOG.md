@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Retry Yoyo tether and return fix
+- Reworked the Yoyo's return phase to explicitly track whether it is returning, home toward the player's live coordinates, snap to the player when within one movement step, and only then begin its recovery cooldown.
+- Kept the string drawn from the player's current position to the moving Yoyo head and preserved existing damage checks.
+- Re-fetched both HTML files and checked JavaScript syntax; browser gameplay was not tested.
+
 ## 2026-10-27 — Yoyo tether follows player
 - Changed the visible string to render from the player's live position to the yo-yo head, so movement no longer leaves the string anchored at the throw location.
 - The returning yo-yo now homes toward the player's current position and finishes its return before starting the next attack cooldown.
