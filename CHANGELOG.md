@@ -1,3 +1,7 @@
+## 0.3.22 — Sword Ring
+- Added Sword Ring as a fifth possible level-up ability. Each selection still displays three distinct randomly chosen cards.
+- The owned sword completes one orbit around the moving player in 1.2 seconds, dealing 2 damage once per enemy per orbit, then disappears for 3 seconds before returning. Defeats use the existing drop system; restart clears the ability.
+
 ## 0.3.21 — Rare XP magnet pickup
 - Defeated enemies have a 1-in-50 chance to drop a red cube in addition to normal XP and possible healing cubes.
 - Collecting the red cube attracts every existing XP cube toward the player for normal XP collection. Restart clears red pickups.
