@@ -1,3 +1,8 @@
+## 2026-10-27 — Slash ability
+- Replaced the third blank level-up card with Slash. When selected, the player performs an automatic close-range sweep aimed toward the mouse every 3 seconds; each enemy can take 3 damage once per swing.
+- Added a visible curved slash effect and included defeated-enemy XP drops using the existing defeat flow. Restart clears Slash ownership, animation, and cooldown state.
+- Updated both HTML copies and the changelog. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Larger arena and random-edge enemy spawns
 - Increased the arena's internal dimensions to 1440×900 and raised the responsive CSS width cap to 1200px.
 - Added a random-edge spawn helper; both enemies begin on a randomly selected border and use their existing chase AI to walk inward. Every respawn chooses a new random edge and position.
