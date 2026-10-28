@@ -1,3 +1,7 @@
+## 2026-10-28 — Sword Ring
+- Added a fifth level-up option and changed the card roll to choose three distinct options from five.
+- Added a moving-player orbit attack with one hit per enemy per orbit, a three-second cooldown after a complete rotation, and restart reset. Updated both HTML copies. Source inspection only; browser gameplay not tested.
+
 ## 2026-10-28 — Fullscreen and wave announcements
 - Wrapped the arena, upgrade overlay, and HUD in a fullscreen-capable game shell with a toggle button; fullscreen CSS scales the arena to fit the viewport while retaining the overlay and status displays.
 - Added a two-second canvas wave announcement on initial play, each wave transition, and restart. Updated both HTML copies and changelog; source-level checks only, browser fullscreen/gameplay not tested.
