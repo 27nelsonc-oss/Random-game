@@ -1,3 +1,7 @@
+## 0.3.29 — Small enemies
+- Introduced smaller red enemies starting on wave 5. Small enemies have 3 HP, a 14-pixel radius, and move at 275 units/second (slightly faster than the player's 250).
+- Each wave from wave 5 guarantees at least 2 small-enemy spawns; the guaranteed count increases by 1 every 5 waves (3 on wave 10, 4 on wave 15, and so on). Additional spawns from wave 5 onward have a 20% chance to be small. Enemy respawns use the same wave rules; restart restores normal enemies on wave 1.
+
 ## 0.3.28 — Slash upgrades
 - Added four Slash upgrades: cooldown reduced from 3 seconds to 2.5 seconds; swing returns along the arc after reaching its normal endpoint; slightly increased swing radius, thickness, and range; and a small knockback on enemies struck by the returning swing's second hit.
 - Slash's card displays its current level/upgrade and disappears at max level. Restart resets Slash ownership and upgrade progress.
