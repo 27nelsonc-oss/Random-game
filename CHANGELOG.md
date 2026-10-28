@@ -1,3 +1,6 @@
+## 0.3.26 — Fix startup freeze
+- Restored the missing Slash and Smite update functions, which were still called by the main game loop. Their absence caused a JavaScript error on the first animation frame and stopped gameplay from updating.
+
 ## 0.3.25 — Yoyo upgrades
 - Added four Yoyo upgrades after the initial purchase: a second Yoyo targeting a different enemy, reduced cooldown, increased travel speed, and a damaging rope between both Yoyos once both reach full extension.
 - The two Yoyos wait at full extension until both are extended, then return together; the connecting rope does not affect movement. The Yoyo card updates per level and disappears at max level.
