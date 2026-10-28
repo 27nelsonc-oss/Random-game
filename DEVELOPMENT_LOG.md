@@ -1,3 +1,7 @@
+## 2026-10-28 — Yoyo upgrades
+- Added four Yoyo upgrades: second Yoyo with a distinct initial target, cooldown reduced from 1.8s to 1.2s at upgrade 2, speed increased from 650 to 850 at upgrade 3, and a damaging connector rope at upgrade 4. Both Yoyos wait until fully extended before returning together so the triangle-shaped rope can appear without changing their travel paths.
+- Updated both HTML copies and project logs. Source checks only; browser gameplay not tested.
+
 ## 2026-10-28 — Ball upgrades
 - Added four upgrade levels after the initial Ball purchase. Each upgrade adds one guaranteed target; upgrade 3 adds recursive 25% bonus-bounce chances and halves the cooldown, while upgrade 4 raises the chance to 50% and removes bounce damage reduction.
 - Ball upgrade card text updates by level and is hidden at max level. Restart clears Ball ownership and upgrade progress. Both HTML copies updated; source checks only, browser gameplay not tested.
