@@ -1,3 +1,7 @@
+## 2026-10-28 — Fix startup freeze
+- Diagnosed the startup freeze by executing a simulated first animation frame: the game loop called `updateSlash` and `updateSmite`, but both function definitions had been accidentally removed. Restored both functions from the last known version that contained them, preserving their existing cooldowns, damage, visuals, and defeat handling.
+- JavaScript syntax and a simulated first animation frame passed after the fix. Browser gameplay still needs a real-browser check.
+
 ## 2026-10-28 — Yoyo upgrades
 - Added four Yoyo upgrades: second Yoyo with a distinct initial target, cooldown reduced from 1.8s to 1.2s at upgrade 2, speed increased from 650 to 850 at upgrade 3, and a damaging connector rope at upgrade 4. Both Yoyos wait until fully extended before returning together so the triangle-shaped rope can appear without changing their travel paths.
 - Updated both HTML copies and project logs. Source checks only; browser gameplay not tested.
