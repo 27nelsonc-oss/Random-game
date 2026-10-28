@@ -1,3 +1,6 @@
+## 0.3.16 — Smite ability
+- Added Smite as a fourth level-up choice. Once selected, it fires a brief visible beam at a randomly chosen living enemy every 5 seconds, dealing 5 damage; defeating an enemy uses the existing XP and healing-drop behavior.
+
 ## 0.3.15 — Level-up healing and health drops
 - Restored the player to full HP whenever they gain a level.
 - Added a green healing cube with a 10% drop chance when an enemy is defeated; collecting it restores 3 HP without exceeding maximum health.
