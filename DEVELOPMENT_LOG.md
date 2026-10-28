@@ -1,3 +1,7 @@
+## 2026-10-28 — Fullscreen and wave announcements
+- Wrapped the arena, upgrade overlay, and HUD in a fullscreen-capable game shell with a toggle button; fullscreen CSS scales the arena to fit the viewport while retaining the overlay and status displays.
+- Added a two-second canvas wave announcement on initial play, each wave transition, and restart. Updated both HTML copies and changelog; source-level checks only, browser fullscreen/gameplay not tested.
+
 ## 2026-10-28 — Scaling simultaneous enemies
 - Expanded the existing enemy array dynamically at wave transitions; active limit rises by one every two waves, capped by the wave defeat target. Existing combat systems iterate the same array.
 - Clear all surviving enemies at wave completion, preserve the three-second grace period, and trim the array back to two on restart. Updated both HTML copies and changelog; source-level verification only, no browser gameplay test.
