@@ -1,3 +1,8 @@
+## 2026-10-27 — Level-up healing and health drops
+- Restore player HP to the maximum whenever a level is gained, and update the HP display immediately.
+- Added a separate green healing cube drop with a 1-in-10 chance for each enemy defeat from automatic shots, Yoyo, Ball, or Slash. Collecting it restores 3 HP, capped at maximum health; restarting clears uncollected healing cubes.
+- Updated both HTML copies and the changelog. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Slash ability
 - Replaced the third blank level-up card with Slash. When selected, the player performs an automatic close-range sweep aimed toward the mouse every 3 seconds; each enemy can take 3 damage once per swing.
 - Added a visible curved slash effect and included defeated-enemy XP drops using the existing defeat flow. Restart clears Slash ownership, animation, and cooldown state.
