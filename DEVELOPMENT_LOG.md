@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Yellow pickup drops
+- Added a small yellow square collectible at the enemy's location whenever it is defeated.
+- The player collects it by moving close enough; the collectible disappears on pickup.
+- Restart clears uncollected drops. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Retry enemy respawn fix
 - Replaced the animation timestamp deadline with a two-second countdown that decreases by frame delta while the enemy is defeated.
 - At zero, the enemy returns to its start position with full health; the next automatic shot is delayed by one second.
