@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2 — Reliable enemy respawn timer
+- Replaced the respawn deadline check with a frame-based two-second countdown after the enemy is defeated.
+- The countdown restores the enemy to its starting position with full HP.
+
 ## 0.3.1 — Enemy respawn
 - A defeated enemy respawns at its starting position with full 5 HP after 2 seconds.
 - The player waits one second after the respawn before the next automatic shot.
