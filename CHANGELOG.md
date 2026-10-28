@@ -1,3 +1,7 @@
+## 0.3.23 — Four Sword Ring upgrades
+- Sword Ring now has four upgrade picks after its initial purchase. Upgrades add swords: 2 total after upgrade 1, 3 after upgrade 2, 4 after upgrade 3, and 5 after upgrade 4.
+- Upgrade 2 makes each activation complete two revolutions; upgrade 3 reduces the cooldown to 2 seconds; upgrade 4 removes the cooldown for continuous activations. Each enemy can be hit once per revolution. The upgrade card disappears once fully upgraded.
+
 ## 0.3.22 — Sword Ring
 - Added Sword Ring as a fifth possible level-up ability. Each selection still displays three distinct randomly chosen cards.
 - The owned sword completes one orbit around the moving player in 1.2 seconds, dealing 2 damage once per enemy per orbit, then disappears for 3 seconds before returning. Defeats use the existing drop system; restart clears the ability.
