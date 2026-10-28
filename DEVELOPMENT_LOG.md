@@ -1,3 +1,7 @@
+## 2026-10-28 — Scaling simultaneous enemies
+- Expanded the existing enemy array dynamically at wave transitions; active limit rises by one every two waves, capped by the wave defeat target. Existing combat systems iterate the same array.
+- Clear all surviving enemies at wave completion, preserve the three-second grace period, and trim the array back to two on restart. Updated both HTML copies and changelog; source-level verification only, no browser gameplay test.
+
 ## 2026-10-28 — Enemy waves
 - Added a four-defeat first wave, increasing the defeat target by one per wave, using the existing two enemy slots and random-edge respawns. Centralized enemy defeat accounting for projectiles, Yoyo, Ball, Slash, and Smite.
 - Added a three-second enemy-free interval, wave HUD, and wave-state reset on restart. Existing XP/healing pickups persist through wave transitions. Source-level checks only; browser gameplay not tested.
