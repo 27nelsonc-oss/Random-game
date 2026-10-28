@@ -1,3 +1,7 @@
+## 0.3.17 — Randomized level-up cards
+- Level-up choices now show three randomly selected abilities from Yoyo, Ball, Slash, and Smite. Each ability has a 3-in-4 (75%) chance to appear in a level-up selection, with no duplicate cards in the same selection.
+- When multiple level-ups are pending, each new choice screen rerolls the available cards. Existing ability effects and cooldowns are unchanged.
+
 ## 0.3.16 — Smite ability
 - Added Smite as a fourth level-up choice. Once selected, it fires a brief visible beam at a randomly chosen living enemy every 5 seconds, dealing 5 damage; defeating an enemy uses the existing XP and healing-drop behavior.
 
