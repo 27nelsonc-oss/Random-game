@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.8 — Yoyo upgrade
+- Added Yoyo as the first level-up card. Choosing it enables an automatic yo-yo attack aimed toward the farthest living enemy.
+- The visible tether and ball travel outward and retract; the attack deals 1 damage to each enemy intersecting its line once on the outward leg and once on the return leg, without a target-count cap.
+- The attack repeats automatically after a short recovery. Restart resets the selected upgrade for the new run.
+
+
 ## 0.3.7 — Standalone named HTML copy
 - Added `Random_Game.html` as an exact copy of the current game for separate testing, retaining `index.html` unchanged.
 
