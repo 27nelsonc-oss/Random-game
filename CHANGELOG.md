@@ -1,3 +1,7 @@
+## 0.3.27 — Smite upgrades
+- Added four Smite upgrades: faster reload (5s to 3.5s), piercing beams that continue to the arena boundary and hit enemies along the line, a thicker beam that catches more enemies, and a 1-second beam that can hit enemies inside every 0.25 seconds (up to four hits while they remain in it).
+- Smite's level-up card updates with its current upgrade and disappears at max level. Restart resets Smite's ownership, upgrade level, beam, and cooldown.
+
 ## 0.3.26 — Fix startup freeze
 - Restored the missing Slash and Smite update functions, which were still called by the main game loop. Their absence caused a JavaScript error on the first animation frame and stopped gameplay from updating.
 
