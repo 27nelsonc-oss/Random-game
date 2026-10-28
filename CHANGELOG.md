@@ -1,3 +1,7 @@
+## 0.3.21 — Rare XP magnet pickup
+- Defeated enemies have a 1-in-50 chance to drop a red cube in addition to normal XP and possible healing cubes.
+- Collecting the red cube attracts every existing XP cube toward the player for normal XP collection. Restart clears red pickups.
+
 ## 0.3.20 — Fullscreen and wave announcements
 - Added a Fullscreen / Exit Fullscreen button for the game area, with the level-up selection and HP/XP/wave HUD retained inside fullscreen mode.
 - Display a centered WAVE number announcement for two seconds at the start of wave 1 and each subsequent wave; restarting restores the first-wave announcement.
