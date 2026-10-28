@@ -1,3 +1,7 @@
+## 2026-10-28 — Smite upgrades
+- Added four Smite upgrade levels: reload reduced from 5 seconds to 3.5 seconds; beam pierces enemies and ends at the arena boundary; beam width increases to hit more enemies; and the beam lasts 1 second, dealing a hit every 0.25 seconds to enemies that remain inside it.
+- Updated Smite's level-up card text and hide-at-max behavior; restart resets its upgrade level. Both HTML copies updated. Source-level verification only; real-browser gameplay not tested.
+
 ## 2026-10-28 — Fix startup freeze
 - Diagnosed the startup freeze by executing a simulated first animation frame: the game loop called `updateSlash` and `updateSmite`, but both function definitions had been accidentally removed. Restored both functions from the last known version that contained them, preserving their existing cooldowns, damage, visuals, and defeat handling.
 - JavaScript syntax and a simulated first animation frame passed after the fix. Browser gameplay still needs a real-browser check.
