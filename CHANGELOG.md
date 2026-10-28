@@ -1,3 +1,7 @@
+## 0.3.13 — Larger arena and random-edge enemy spawns
+- Expanded the game arena from 960×600 to 1440×900 and increased its maximum displayed width.
+- Both enemies now start at randomly selected points along the arena border and enter by chasing the player. Each respawn also chooses a fresh random border location.
+
 ## 0.3.12 — Mouse-facing player eyes
 - Added two small black eyes to the white player; the pair turns toward the mouse pointer to show the player's facing direction.
 
