@@ -1,3 +1,7 @@
+## 2026-10-28 — Slash upgrades
+- Added four Slash upgrades: half-second cooldown reduction (3.0s to 2.5s); an outward-and-returning swing; slightly increased radius, thickness, and attack range; and a small outward knockback on the second hit from the return swing.
+- Updated Slash card text, level display, and hide-at-max behavior; restart resets its upgrade level. Both HTML files updated identically. Source-level checks only; real-browser gameplay not tested.
+
 ## 2026-10-28 — Smite upgrades
 - Added four Smite upgrade levels: reload reduced from 5 seconds to 3.5 seconds; beam pierces enemies and ends at the arena boundary; beam width increases to hit more enemies; and the beam lasts 1 second, dealing a hit every 0.25 seconds to enemies that remain inside it.
 - Updated Smite's level-up card text and hide-at-max behavior; restart resets its upgrade level. Both HTML copies updated. Source-level verification only; real-browser gameplay not tested.
