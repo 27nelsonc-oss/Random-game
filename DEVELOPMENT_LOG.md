@@ -1,5 +1,10 @@
 # Development Log
 
+## 2026-10-27 — Yoyo tether follows player
+- Changed the visible string to render from the player's live position to the yo-yo head, so movement no longer leaves the string anchored at the throw location.
+- The returning yo-yo now homes toward the player's current position and finishes its return before starting the next attack cooldown.
+- Kept the existing launch direction, attack speed, line collision damage, and per-leg hit tracking. Source-level checks only; browser gameplay was not tested.
+
 ## 2026-10-27 — Yoyo upgrade
 - Replaced the first blank level-up card with Yoyo; the other two cards remain blank. Selecting Yoyo enables an automatic 1-damage yo-yo with a visible tether and circular head, aimed at the farthest living enemy.
 - Collision checks cover the whole tether line, allowing multiple enemies to be hit without a target-count cap; each target can be hit once outbound and once on return. Attack repeats after recovery; restart clears the upgrade and its state.
