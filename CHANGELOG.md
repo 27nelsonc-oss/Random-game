@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.6 — Level-up card selection
+- When a player levels up, gameplay pauses and a centered overlay presents three blank, clickable cards; choosing one dismisses the choice and resumes play.
+- Each level-up requires a separate card selection, including when XP carries over multiple level thresholds.
+- Restart closes any open selection overlay and resets its state.
+
+
 ## 0.3.5 — Cube XP and leveling
 - Collecting each yellow cube grants 1 XP; the HUD shows the current level and progress toward the next level.
 - Level 1 requires 3 cubes, level 2 requires 5 additional cubes, then each later level costs 2 more cubes than the previous level.
