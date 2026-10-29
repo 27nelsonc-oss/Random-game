@@ -1,3 +1,6 @@
+## 0.3.39 — Prevent duplicate enemy defeat counts
+- Added a per-enemy defeat guard so one enemy can only increment the wave kill count once, even if multiple damage effects reach zero HP in the same frame. The guard resets when that enemy is configured for a new wave or the run restarts. This addresses premature wave transitions while another enemy is still alive.
+
 ## 0.3.38 — Prevent wave-transition stalls
 - XP drops are no longer collected during the three-second wave-clear countdown. Collecting enough XP during that countdown could open the level-up pause, and the main loop returned early before advancing the countdown, leaving the game stuck on the next-wave message. Drops remain on the arena and can be collected when the next wave begins.
 
