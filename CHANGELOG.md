@@ -1,3 +1,6 @@
+## 0.3.34 — Slash projectile parry
+- Slash upgrade 3 now also destroys enemy projectiles that touch its active sword arc, including during the return swing. The parry checks projectile movement across each frame to reduce missed collisions; earlier Slash levels are unchanged.
+
 ## 0.3.33 — Escape pause
 - Press Esc to pause or resume gameplay, or use the Resume button in the pause overlay. Movement, enemies, projectiles, waves, attacks, and cooldowns freeze while paused; level-up selection remains separate.
 
