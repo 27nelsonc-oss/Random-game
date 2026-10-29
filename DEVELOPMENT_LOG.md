@@ -1,3 +1,8 @@
+## 2026-10-29 — Additional intermittent-freeze safeguards
+- Investigated Pierce Shot and the wider update loop. Pierce Shot's suction and hit checks were repeatedly rebuilding living-enemy lists; optimized each shot update to reuse one list, capped simultaneous Pierce Shots at four, and added a three-second failsafe lifetime.
+- Also found two other sources of workload that could keep growing over long runs: the simultaneous enemy count increased forever with wave number, and ranged enemies could create an unbounded projectile list. Capped simultaneous enemies at 24 and ranged projectiles at 120. Wave quotas and enemy types remain, but high-wave simultaneous enemy counts stop increasing past the cap.
+- Updated both HTML copies identically and ran a JavaScript syntax check. Not tested in a live browser, so the change needs gameplay confirmation.
+
 ## 2026-10-29 — Reduce long-session freezing
 - Investigated the game loop and found that XP, healing, and magnet drops could accumulate without any limit if left uncollected; every frame updates or draws each saved drop, so the work could grow over long sessions. Added conservative caps (150 XP, 30 healing, 12 magnet drops), removing oldest excess drops. Updated both HTML copies identically; JavaScript syntax and source checks passed, but live browser testing is still needed to confirm whether this resolves the intermittent freeze.
 
