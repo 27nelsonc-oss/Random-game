@@ -1,3 +1,7 @@
+## 0.3.37 — Additional freeze safeguards
+- Limited simultaneous enemies to 24 so the per-frame work cannot grow without bound across very high waves. Limited ranged-enemy projectiles to 120 at once.
+- Hardened Pierce Shot: reuse the living-enemy list within each shot update, cap active Pierce Shots at four, and expire any shot after three seconds as a fallback. The level-4 suction still affects only nearby non-tank enemies.
+
 ## 0.3.36 — Reduce long-session freezing
 - Added safety limits for accumulated drops: at most 150 XP drops, 30 healing drops, and 12 magnet drops remain on the field. When a limit is exceeded, the oldest drops are removed. This prevents ignored drops from accumulating indefinitely and slowing down rendering/updates during long sessions.
 
