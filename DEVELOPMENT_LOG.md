@@ -1,3 +1,6 @@
+## 2026-10-29 — Pierce Shot
+- Added Pierce Shot as a sixth randomized level-up card, with four upgrades, distinct-target double shot, non-tank future-path suction, visuals, wave/restart cleanup, and active-play cooldown. Updated both HTML copies identically. Syntax/source checks only; not browser-tested.
+
 ## 2026-10-29 — Slash projectile parry
 - Extended Slash upgrade 3 (larger swing) to parry ranged-enemy projectiles while the sword arc is active, on outbound and return swings. Updated the card description and used projectile-path collision checks. Both HTML copies updated identically; JavaScript syntax and source checks performed, not browser-tested.
 
