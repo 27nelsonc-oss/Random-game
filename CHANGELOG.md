@@ -1,3 +1,6 @@
+## 0.3.36 — Reduce long-session freezing
+- Added safety limits for accumulated drops: at most 150 XP drops, 30 healing drops, and 12 magnet drops remain on the field. When a limit is exceeded, the oldest drops are removed. This prevents ignored drops from accumulating indefinitely and slowing down rendering/updates during long sessions.
+
 ## 0.3.35 — Pierce Shot
 - Added Pierce Shot: 3 damage per enemy, up to 3 pierced enemies, every 4 seconds. Four upgrades: 2-second cooldown, unlimited piercing, a second shot targeting a different enemy, and a small forward-path pull for normal, small, and ranged enemies (not tanks). Each shot hits each enemy at most once.
 
