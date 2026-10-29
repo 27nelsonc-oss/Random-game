@@ -1,3 +1,7 @@
+## 2026-10-29 — Fix wave-clear countdown stall
+- User clarified the freeze occurs at wave transition: the game shows the next-round countdown while an enemy appears to remain alive. Inspection found that collecting XP during the wave-clear countdown could trigger the level-up pause. The main loop's early return then stopped the wave countdown permanently. XP pickup is now skipped while the countdown is active; drops remain available after the next wave starts.
+- Both HTML copies updated identically and JavaScript syntax check passed. Needs live gameplay confirmation.
+
 ## 2026-10-29 — Additional intermittent-freeze safeguards
 - Investigated Pierce Shot and the wider update loop. Pierce Shot's suction and hit checks were repeatedly rebuilding living-enemy lists; optimized each shot update to reuse one list, capped simultaneous Pierce Shots at four, and added a three-second failsafe lifetime.
 - Also found two other sources of workload that could keep growing over long runs: the simultaneous enemy count increased forever with wave number, and ranged enemies could create an unbounded projectile list. Capped simultaneous enemies at 24 and ranged projectiles at 120. Wave quotas and enemy types remain, but high-wave simultaneous enemy counts stop increasing past the cap.
