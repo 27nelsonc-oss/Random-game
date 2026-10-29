@@ -1,3 +1,6 @@
+## 2026-10-29 — Escape pause
+- Added an Esc-controlled pause overlay and Resume button. Switched gameplay timing to an accumulated active-play clock so cooldowns and animation states do not advance during pause or level-up choices. Both HTML copies updated identically; JavaScript syntax checked, no real-browser test.
+
 ## 2026-10-28 — Ranged enemies
 - Added a 4-HP purple ranged enemy starting at wave 7, moving at the normal enemy's speed. It fires 1-damage projectiles every 1.6 seconds when the player is within 360 units and tries to maintain 255–325 units of distance. Projectiles move at 300 units/second and use the existing player damage cooldown.
 - Wave 7 guarantees one ranged spawn, with the guarantee increasing by one every five waves; additional eligible spawns have a 15% chance to be ranged. Added projectile visuals and cleanup on wave transitions/restart while preserving existing enemy types. Both HTML copies updated identically. JavaScript syntax and source-level checks only; real-browser gameplay not tested.
