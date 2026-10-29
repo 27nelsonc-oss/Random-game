@@ -1,3 +1,6 @@
+## 2026-10-29 — Reduce long-session freezing
+- Investigated the game loop and found that XP, healing, and magnet drops could accumulate without any limit if left uncollected; every frame updates or draws each saved drop, so the work could grow over long sessions. Added conservative caps (150 XP, 30 healing, 12 magnet drops), removing oldest excess drops. Updated both HTML copies identically; JavaScript syntax and source checks passed, but live browser testing is still needed to confirm whether this resolves the intermittent freeze.
+
 ## 2026-10-29 — Pierce Shot
 - Added Pierce Shot as a sixth randomized level-up card, with four upgrades, distinct-target double shot, non-tank future-path suction, visuals, wave/restart cleanup, and active-play cooldown. Updated both HTML copies identically. Syntax/source checks only; not browser-tested.
 
