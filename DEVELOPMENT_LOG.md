@@ -1,3 +1,8 @@
+## 2026-10-29 — Guard against duplicate enemy defeats
+- Re-read the user's report: the next-wave countdown starts while a nearly defeated enemy is still alive, then the game freezes. The wave counter was incremented by `registerDefeat` without a per-enemy duplicate guard, so overlapping damage effects could potentially count the same enemy more than once and trigger the transition early.
+- Added a per-enemy `defeated` flag checked and set by `registerDefeat`, reset on wave reconfiguration and restart. Applied the same change to both HTML copies. This targets the premature-transition symptom directly; it still needs live gameplay confirmation.
+- Validation: JavaScript syntax check, exact duplicate-file comparison, and source checks passed. No browser gameplay test was performed.
+
 ## 2026-10-29 — Fix wave-clear countdown stall
 - User clarified the freeze occurs at wave transition: the game shows the next-round countdown while an enemy appears to remain alive. Inspection found that collecting XP during the wave-clear countdown could trigger the level-up pause. The main loop's early return then stopped the wave countdown permanently. XP pickup is now skipped while the countdown is active; drops remain available after the next wave starts.
 - Both HTML copies updated identically and JavaScript syntax check passed. Needs live gameplay confirmation.
