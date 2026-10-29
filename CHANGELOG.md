@@ -1,3 +1,6 @@
+## 0.3.35 — Pierce Shot
+- Added Pierce Shot: 3 damage per enemy, up to 3 pierced enemies, every 4 seconds. Four upgrades: 2-second cooldown, unlimited piercing, a second shot targeting a different enemy, and a small forward-path pull for normal, small, and ranged enemies (not tanks). Each shot hits each enemy at most once.
+
 ## 0.3.34 — Slash projectile parry
 - Slash upgrade 3 now also destroys enemy projectiles that touch its active sword arc, including during the return swing. The parry checks projectile movement across each frame to reduce missed collisions; earlier Slash levels are unchanged.
 
