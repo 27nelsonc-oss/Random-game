@@ -1,3 +1,6 @@
+## 0.3.38 — Prevent wave-transition stalls
+- XP drops are no longer collected during the three-second wave-clear countdown. Collecting enough XP during that countdown could open the level-up pause, and the main loop returned early before advancing the countdown, leaving the game stuck on the next-wave message. Drops remain on the arena and can be collected when the next wave begins.
+
 ## 0.3.37 — Additional freeze safeguards
 - Limited simultaneous enemies to 24 so the per-frame work cannot grow without bound across very high waves. Limited ranged-enemy projectiles to 120 at once.
 - Hardened Pierce Shot: reuse the living-enemy list within each shot update, cap active Pierce Shots at four, and expire any shot after three seconds as a fallback. The level-4 suction still affects only nearby non-tank enemies.
